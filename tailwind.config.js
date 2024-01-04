@@ -2,13 +2,9 @@
 module.exports = {
   content: ['./src/**/*.{html,js}'],
   theme: {
-    extend: {
-      colors: {
-        primary: {
-          100: '#ebf8ff',
-          500: '#4299e1',
-        },
-      },
+    extend: {},
+    fontFamily: {
+      poppins: ['Poppins', 'sans-serif'],
     },
   },
   plugins: [],
